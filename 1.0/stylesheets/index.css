@@ -1,0 +1,170 @@
+@font-face {
+	font-family: Brandon;
+	src: url("../fonts/Brandon_reg.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Brandon-Light;
+	src: url("../fonts/Brandon_light.otf") format("opentype");
+}
+
+body{
+	font-family: Brandon-Light;
+}
+
+.page-container {
+	position: relative;
+    top: 60px;
+}
+
+#myCarousel {
+	width: 70%;
+	margin: 40px auto;
+	
+}
+
+.main-carousel-container{
+	background-image: url('../images/features/Banner-BG.png');
+}
+
+.image-container {
+	padding: 40px 0
+}
+.image-container img {
+	width: 50%;
+    margin-left: 25%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: block;
+}
+
+
+#myCarousel img{
+	height: 300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myCarousel .vcenter{
+	padding: 98px 10px;
+}
+
+#myCarousel h3 {
+	color: #2494d0;
+}
+
+.carousel-control {
+	width: 0;
+	color: #2494d0;
+}
+.carousel-control.left {
+	left: -25px;
+}
+
+.carousel-control.right {
+	right: -25px;
+}
+
+.carousel-indicators {
+	bottom: -50px;
+}
+
+.carousel-indicators li {
+	background: #2494d0;
+	color: #ddd;
+}
+
+.carousel-indicators .active {
+	background: #ddd;
+}
+
+.features .header{
+	color: #2494d0;
+    font-weight: bold;
+    border-top: solid 1px;
+    margin-top: 0;
+    padding-top: 20px;
+    width: 70%;
+    margin: auto;
+}
+.features span{
+	width: 240px;
+	display: inline-block;
+	font-size: 16px;
+}
+.content {
+	margin: 70px auto;
+	width: 75%;
+}
+
+.content .header {
+	font-size: 26px;
+	font-weight: 300;
+}
+
+.content p {
+	font-size: 18px;
+}
+
+.mtm {
+	margin-top: 50px;
+}
+
+.mts {
+	margin-top: 25px;
+}
+
+.padm {
+	padding: 50px;
+}
+
+.issue-tracker {
+	background: #777;
+	color: #fff;
+	font-size: 16px;
+}
+
+.issue-tracker a {
+	padding: 12px;
+    background: #fff;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.footer {
+	background: #555;
+	color: #fff;
+}
+
+.footer .row a {
+	display: block;
+	color: #aaa;
+	cursor: pointer;
+	font-size: 13px;
+}
+
+.footer span{
+	display: inline-block;
+}
+
+.footer img{
+	height: 25px;
+}
+
+.borderlm {
+	border-left: solid 1px #fff;
+}
+
+.copyright {
+    border-top: 1px dotted #555;
+    padding: 10px 0;
+}
+
+.copyright-notice{
+	text-align: center;
+    vertical-align: middle;
+    font-family: "PT Sans";
+    font-size: 11px;
+    color: #777;
+}

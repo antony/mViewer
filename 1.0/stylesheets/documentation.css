@@ -1,0 +1,215 @@
+@font-face {
+
+font-family: Brandon;
+src: url("../fonts/Brandon_reg.otf") format("opentype");
+}
+
+@font-face {
+font-family: Brandon-Light;
+src: url("../fonts/Brandon_light.otf") format("opentype");
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Brandon-Light';
+}
+
+.main-container {
+  position: relative;
+  top: 90px;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.main-nav{
+ 
+}
+
+
+.side-nav {
+  font-family: 'Brandon';
+  transition-timing-function: ease;
+  transition: margin-top .35s;
+}
+
+#sidebar>li>a {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/*Main Container*/
+.mainContainer {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+.inner-container {
+  padding-left: 60px !important;
+  padding-right: 75px !important;
+}
+
+
+
+.page-holder {
+  border-style: none none none dashed;
+  border-color: #97979a;
+  border-width: 1px;
+  transition-timing-function: ease;
+  transition: margin-top .35s;
+}
+
+.page-holder iframe {
+  width: 100%;
+}
+
+
+
+
+/*Logo*/
+.logo{
+    height: auto;
+    width: auto;
+    float: left;
+    text-decoration: none;
+}
+
+
+
+.span1{
+  font-family: 'Brandon-Light' ;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.span2 {
+  font-family: 'Brandon-Light';
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.span3 {
+  font-family: 'Helvetica';
+  color: #D7DEE0;
+  font-weight: 600;
+}
+
+
+.icon {
+  padding-right: 10%;
+  display: inline-block;
+}
+
+
+/*-------Clear Floats-------*/
+.clearfix { zoom : 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*Header*/
+
+
+.banner {
+    background: #61b2f7 !important;
+    padding: 1% 2%;
+}
+
+.disconnect {
+}
+
+.disconnect::before {
+}
+
+.details {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: white;
+  font-family: 'Brandon-Light';
+  text-align: center;
+}
+
+
+
+/*Styling for side nav*/
+
+.fixed {
+    
+}
+
+/* sidebar */
+.bs-docs-sidebar {
+    margin-bottom: 20px;
+    height: auto;
+}
+
+/* all links */
+.bs-docs-sidebar .nav>li>a {
+    color: #999;
+    border-left: 2px solid transparent;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* nested links */
+.bs-docs-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+/* active & hover links */
+.bs-docs-sidebar .nav>.active>a, 
+.bs-docs-sidebar .nav>li>a:hover, 
+.bs-docs-sidebar .nav>li>a:focus {
+    color: #2494d0;                 
+    text-decoration: none;          
+    background-color: transparent;  
+    border-left-color: #2494d0; 
+}
+/* all active links */
+.bs-docs-sidebar .nav>.active>a, 
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active:focus>a {
+    font-weight: 700;
+}
+/* nested active links */
+.bs-docs-sidebar .nav .nav>.active>a, 
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active:focus>a {
+    font-weight: 500;
+}
+
+/* hide inactive nested list */
+.bs-docs-sidebar .nav ul.nav {
+    display: none;           
+}
+/* show active nested list */
+.bs-docs-sidebar .nav>.active>ul.nav {
+    display: block;           
+}
+
+
+.sticky {
+    position: fixed;
+    top:0;
+    width: 25%;
+}
+
+
+
+

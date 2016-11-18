@@ -1,0 +1,291 @@
+header {
+    background: #2494d0;
+    font-family: 'Brandon';
+}
+
+/*Main Navigyation*/
+.mainNav {
+    list-style: none;
+    background: #2494d0;
+    align-items: center;
+    font-size: 27px;
+    margin-bottom: 0;
+}
+
+.main-nav {
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+}
+
+#stopHere {
+  padding-left: 85px !important;
+  padding-right: 90px !important;
+}
+
+
+
+.navbar-toggle {
+  margin-right: 100px !important;
+  margin-top: 14px !important;
+
+}
+.navbar-toggle .icon-bar {
+  background: #fff !important;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 30;
+}
+
+header>nav {
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+
+.logo img {
+  padding-top: 8px;
+}
+.navbar {
+  padding: 8px 0; 
+  height: inherit;
+}
+
+.navbar-header {
+  /*padding-left: 30px;*/
+}
+
+.mainNav li {
+    /*display: inline-block;*/
+    font-size: 14px;
+}
+
+.mainNav li a:link,
+.mainNav li a:visited {
+    padding: 22px 10px 10px 10px;
+    color : #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s, color 0.2s;
+    font-weight: 500;
+    width: 100%;
+}
+
+
+.mainNav li a:hover,
+.mainNav li a:focus {
+    /*color: #6f7576;*/
+    border-top: 3px solid #fff;
+    padding-top: 19px;
+    background-color: inherit !important;
+}
+
+.download {
+    margin-top: 16px !important;
+    background-color: #fcfcfc;
+    margin-right: 0 !important;
+    z-index: 9999;
+}
+
+.download>a{
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.download>a:hover,
+.download>a:focus{
+  border-top: none !important;
+}
+
+
+.download > a > span {
+    color: #2494d0;
+}
+
+
+
+.mainNav li {
+  margin: 0 10px;
+  font-weight: 300;
+
+}
+
+.mainNav li span i {
+  font-size: 34px;
+}
+
+
+/*Footer Styling*/
+
+#footer {
+  background: #484848;
+  font-family: 'Brandon-Light';
+  padding-top: 25px;
+}
+
+.footer-top-section {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #fcfcfc;
+}
+
+
+.third-column {
+  border-right: 1px solid #fcfcfc;
+}
+
+.fourth-column a {
+  display: inline-block !important;
+  border-radius:50%;
+  text-align:center;
+  width: 30px;
+}
+
+.fourth-column label {
+  color: #fcfcfc;
+}
+
+
+.icoFacebook {
+  color: #3b5998 !important;
+  margin-top: -3px !important;
+}
+
+.icoTwitter {
+  color: #00aced !important;
+  margin-top: -3px !important;
+}
+
+.icoGoogle{
+  color: #dd4b39 !important;
+  margin-top: -3px !important;
+}
+
+
+
+.foot-links a{
+  display: inherit;
+  color: #fcfcfc;
+  padding: 4px 0;
+  font-size: 15px
+
+}
+
+.foot-links a:hover {
+  color: #fcfcfc !important;
+}
+
+.foot-header {
+  color: #2494d0;
+  font-family: 'Brandon';
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+#final-footer {
+  color: #fcfcfc;
+  font-family: 'Brandon';
+  font-size: 14px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+
+#downloads {display: none;}
+
+.popover-content > a {
+  color: #2494d0 !important;
+  display: inline-block;
+}
+
+.popover-content > a:hover {
+  color: #999 !important;
+}
+
+.popover-content {
+  padding: 9px 3px !important;
+}
+
+.popover-content i {
+  padding-right: 2px;
+}
+/*Media Queries*/
+
+@media (max-width: 768px){
+.mainNav {
+    padding-right: 0;
+}
+
+.third-column {
+  padding-left: 15px !important;
+  border-right: none;
+}
+}
+
+
+@media (max-width: 767px){
+  .mainNav li a:hover,
+  .mainNav li a:focus {
+    border-top: none;
+    padding-left: 7px !important;
+    border-left: 3px solid #fff
+}
+
+
+  .download>a:hover,
+  .download>a:focus{
+    border-left: none !important;
+  }
+}
+
+
+
+@media (max-width: 1050px){
+
+.main-nav {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+#stopHere {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.inner-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+}
+
+
+@media (max-width: 767px){
+  .popover{
+    float: left;
+    position: relative !important;
+  }
+      
+}
+
+
+@media (max-width: 435px){
+  nav{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .bs-docs-sidebar .nav>li>a {
+    padding: 4px 5px !important;
+  }
+
+  .navbar-toggle {
+  margin-right: 90px !important;
+}
+      
+}
+
+

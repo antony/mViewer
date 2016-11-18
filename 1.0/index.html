@@ -1,0 +1,204 @@
+<html>
+<head>
+	<title>mViewer by Imaginea @ GitHub</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheets/headerAndFooter.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascripts/index.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+     <nav class="navbar">
+        <div class = 'main-nav container'>
+          <div class="navbar-header">
+            <a href='./' class ='logo'><img src='./images/Logo.png'></img></a>
+            <button id= "toggle-buttom" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar1">
+          <ul class='mainNav clearfix nav navbar-nav navbar-right' >
+            <li class=''><a href="./#features" ><span class="active">FEATURES</span></a></li>
+            <li class=''><a href="./documentation.html" ><span>DOCUMENTATION</span></a></li>
+            <li class='download'><a href="javascript:void(0);" data-toggle="popover" data-placement="bottom" ><span>DOWNLOAD</span></a></li>
+          </ul>
+          </div>
+         </div>
+       </nav>
+       <section id="downloads">
+          <a class="zip_download_link" href="https://github.com/Imaginea/mViewer/releases/download/v1.0-Beta/mViewer-1.0-release.zip"><i class="fa fa-folder-open" aria-hidden="true"></i>.zip</a>
+          <a class="tar_download_link" href="https://github.com/Imaginea/mViewer/releases/download/v1.0-Beta/mViewer-1.0-release.tar.gz"><i class="fa fa-folder-open" aria-hidden="true"></i>tar.gz</a>
+        </section>
+        <a href="https://github.com/Imaginea/mViewer"><img style="position: absolute; top: -10px; right: -15px; width: 30%; max-width: 150px; border: 0;" alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
+  </header>
+  <!-- <div>
+    <img src="images/banner.png">
+  </div> -->
+  <div class='page-container'>
+    <div class='main-carousel-container'>
+      <div class="image-container">
+        <img src="images/banner.png">
+      </div>
+    </div>
+  
+  <div class="container"> 
+    <div class="content text-center">
+      <div class="header">A simple web-based Administration and Management Tool for MongoDB.</div>
+      <p class="mts">mViewer(Micro/Mongo Viewer) is a light web-based GUI managin MongoDB without needing any installation. mViewer allows managing databases, collections, gridfs, users & indexes as an alternative to the MongoDB native shell in simpler and user friendly way</p>
+    </div>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active row">
+          <div class="col-sm-6 text-center vcenter">
+            <h3>Easy to login</h3>
+            <h4>Simple to login with and with out auth mode along with users created.</h4>  
+          </div>
+          <div class="col-sm-6">
+            <img src="images/slides/login.png">
+          </div>
+        </div>
+        <div class="item row">
+          <div class="col-sm-6 text-center vcenter">
+            <h3>Easy to navigate</h3>
+            <h4>Easy to navigate betweeen databases and objects of database</h4>  
+          </div>
+          <div class="col-sm-6">
+            <img src="images/slides/dbs.png">
+          </div>
+        </div>
+        <div class="item row">
+          <div class="col-sm-6 text-center vcenter">
+            <h3>Users creation & management</h3>
+            <h4>Easy to manage users. Create users and manage them with specifig roles on selected database</h4>  
+          </div>
+          <div class="col-sm-6">
+            <img src="images/slides/usercreation.png">
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+  </div>
+
+  	
+  	<div id="features" class="features mtm">
+  		<h2 class="header text-center">Features</h2>
+	  	<div class="row mts">
+	  		<div class="col-xs-12 col-sm-4 text-center">
+	  			<img src="images/features/DATABASE.png">
+	  			<h4>MULTIPLE DATABASES</h4>
+	  			<span>Login & manage multiple mongo database instance hosted with different IP & Port.</span>
+	  		</div>
+	  		<div class="col-xs-12 col-sm-4 text-center">
+	  			<img src="images/features/SECURITY.png">
+	  			<h4>AUTHENTICATION</h4>
+	  			<span>Enhanced authentication. Works with and with-out auth mode.</span>
+	  		</div>
+	  		<div class="col-xs-12 col-sm-4 text-center">
+	  			<img src="images/features/USERS.png">
+	  			<h4>USERS, ROLES & PRIVILEGES</h4>
+	  			<span>Manage users by creating & assigning roles on different databases.</span>
+	  		</div>
+	  	</div>
+
+	  	<div class="row mts">
+	  		<div class="col-xs-12 col-sm-4 text-center">
+	  			<img src="images/features/LOOK-N-FEEL.png">
+	  			<h4>LOOK & FEEL</h4>
+	  			<span>Good user interface with enhanced ease of use.</span>
+	  		</div>
+	  		<div class="col-xs-12 col-sm-4 text-center">
+	  			<img src="images/features/NAVIGATION.png">
+	  			<h4>NAVIGATION</h4>
+	  			<span>Ease in navigation b/w databases, collections & users of a database.</span>
+	  		</div>
+	  		<div class="col-xs-12 col-sm-4 text-center">
+	  			<img src="images/features/SUPPORTS-MONGO-3.X.png">
+	  			<h4>SUPPORTS MONGO 3.X</h4>
+	  			<span>Supports latest mongodb driver 3.x.</span>
+	  		</div>
+	  	</div>
+	</div>
+	</div>
+	<div class="issue-tracker mtm text-center padm">
+  		<h4>Want a feature or found a bug, do raise a request/issue at</h4>
+  		<a class="mts" href="https://github.com/Imaginea/mViewer/issues">Github Issue Tracker</a>
+  	</div>
+	  <div id="footer">
+      <div class="container" id="stopHere">
+        <div class="row footer-top-section">
+        
+          <div class="col-sm-3">
+            <div class="foot-header">
+              QUICK LINKS 
+            </div>
+            <div class="foot-links">
+              <a href="#features">Features</a>
+              <a href="./documentation.html">Documentation</a>
+              <a href="https://github.com/Imaginea/mViewer/blob/master/LICENSE.txt">License and Terms</a>
+            </div>
+          </div><!--/col-sm-3-->
+        <div class="col-sm-3">
+          <div class="foot-header"> GET INVOLVED </div>
+          <div class="foot-links">
+            <a href="https://github.com/Imaginea/mViewer">Github Repo</a>
+            <a href="./documentation.html">Developer Guide</a>
+            <a href="https://github.com/Imaginea/mViewer/issues">Git Issue Tracker</a>
+          </div>
+        </div>
+        <div class="col-sm-3 third-column">
+          <div class="foot-header">
+            OTHER FOSS PROJECTS 
+          </div>
+          <div class="foot-links">
+            <a href="http://www.socialbyway.com/">SocialByWay</a>
+            <a href="http://www.thematisse.org/">Matisse</a>
+            <a href="http://imaginea.github.io/bot-bot/">Bot-Bot</a>
+            <a href="http://imaginea.github.io/uvCharts/">UVCharts</a>
+            <a href="http://www.wavemaker.com/">WaveMaker</a>
+            
+          </div>
+        </div><!--/col-sm-3-->
+        <div class="col-sm-3 fourth-column">
+          <div class="foot-header">
+            CONTACT US 
+          </div>
+          <div class="foot-links">
+            <div><label>Email:</label> <a href="">opensource@imaginea.com</a></div>
+            <div><label>GTalk:</label> <a href="">mviewer@gmail.com</a></div>
+            <div class="social-icons">
+              <label>Social:</label> 
+              <a href="#" class="icoFacebook" title="Facebook"><!-- <i class="fa fa-facebook"></i> --><img src="images/features/Facebook.png"></a> 
+              <a href="#" class="icoTwitter" title="Twitter"><!-- <i class="fa fa-twitter"></i> --><img src="images/features/Twitter.png"></a>
+              <a href="#" class="icoGoogle" title="Google +"><!-- <i class="fa fa-google-plus"></i> --><img src="images/features/Google-+.png"></a>
+            </div>
+          </div>
+        </div>
+        </div>
+	      <div id="final-footer" class="text-center">
+	        Copyright © 2016, <a href="http://www.imaginea.com/">Imaginea Technologies</a> Inc.
+	      </div>
+        </div>
+      </div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheets/documentation.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/headerAndFooter.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="javascripts/documentation.js"></script>
+  <script type="text/javascript" src="javascripts/iframeResizer.min.js"></script>
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+        <div class = 'main-nav container'>
+          <div class="navbar-header">
+            <a href='./' class ='logo'><img src='./images/Logo.png'></img></a>
+            <button id= "toggle-buttom" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class='mainNav clearfix nav navbar-nav navbar-right' >
+              <li class=''><a href="./#features" ><span>FEATURES</span></a></li>
+              <li class=''><a href="./documentation.html" ><span class="active">DOCUMENTATION</span></a></li>
+              <li class='download'><a href="javascript:void(0);" data-toggle="popover" data-placement="bottom" ><span>DOWNLOAD</span></a></li>
+            </ul>
+          </div>
+         </div>
+       </nav>
+        <section id="downloads">
+          <a class="zip_download_link" href="https://github.com/Imaginea/mViewer/releases/download/v1.0-Beta/mViewer-1.0-release.zip"><i class="fa fa-folder-open" aria-hidden="true"></i>.zip</a>
+          <a class="tar_download_link" href="https://github.com/Imaginea/mViewer/releases/download/v1.0-Beta/mViewer-1.0-release.tar.gz"><i class="fa fa-folder-open" aria-hidden="true"></i>tar.gz</a>
+        </section>
+        <a href="https://github.com/Imaginea/mViewer"><img style="position: absolute; top: -10px; right: -15px; width: 30%; max-width: 150px; border: 0;" alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
+    </header>
+    <div class='main-container '>
+    <div class='inner-container container'>
+    <div class="row" id = "navWrap">
+      <nav class="col-xs-3 bs-docs-sidebar">
+        <ul id="sidebar" class="side-nav nav nav-stacked fixed">
+          <li><a target='mainFrame' href='pages/getting_started.html'>Getting Started</a></li>
+          <li><a target='mainFrame' href='pages/db_ops_addDB.html' >Managing Databases</a>
+            <ul class ="nav nav-stacked">
+              <li><a target='mainFrame' href='pages/db_ops_addDB.html'>Add Database</a></li>
+              <li><a target='mainFrame' href='pages/db_ops_viewDB.html'>View Statistics</a></li>
+              <li><a target='mainFrame' href='pages/db_ops_deleteDB.html#deleteDB'>Delete Database</a></li>
+              <!-- <li><a target='mainFrame' href='pages/db_ops_executeQueryDB.html'>Executing Queries</a></li> -->
+            </ul>
+          </li>
+          <li><a target='mainFrame' href='pages/col_ops_addCollections.html'>Managing Collections</a>
+            <ul class ="nav nav-stacked">
+              <li><a target='mainFrame' href='pages/col_ops_addCollections.html'>Add Collection</a></li>    
+              <li><a target='mainFrame' href='pages/col_ops_viewCollectionStat.html'>View Statistics</a></li>
+              <li><a target='mainFrame' href='pages/col_ops_deleteCollections.html'>Delete Collection</a></li>
+              <li><a target='mainFrame' href='pages/col_ops_executeQueryCollections.html'>Executing Queries</a></li>        
+            </ul> 
+          </li>
+          <li><a target='mainFrame' href='pages/doc_ops_addDoc.html'>Managing Documents</a>
+            <ul class ="nav nav-stacked">
+                <li><a target='mainFrame' href='pages/doc_ops_addDoc.html'>Add Document</a></li>      
+                <li><a target='mainFrame' href='pages/doc_ops_viewDoc.html'>View Documents</a></li>
+                <li><a target='mainFrame' href='pages/doc_ops_editDoc.html'>Edit Documents</a></li>
+                <li><a target='mainFrame' href='pages/doc_ops_delDoc.html'>Delete Document</a></li>
+            </ul>
+          </li>
+          <li><a target='mainFrame' href='pages/gfs_ops_addBucket.html'>Managing GridFS</a>
+            <ul class ="nav nav-stacked">
+                <li><a target='mainFrame' href='pages/gfs_ops_addBucket.html'>Add Bucket</a></li>
+                <!-- <li><a target='mainFrame' href='pages/gfs_ops_viewDBStatistics.html'>View Statistics</a></li> -->
+                <li><a target='mainFrame' href='pages/gfs_ops_deleteBucket.html'>Drop Bucket</a></li>
+                <li><a target='mainFrame' href='pages/gfs_ops_executeQueryBuckets.html'>Executing Queries</a></li>
+            </ul>
+          </li>
+          <li><a target='mainFrame' href='pages/file_ops_addFile.html'>Managing Files</a>
+            <ul class ="nav nav-stacked">
+                    <li><a target='mainFrame' href='pages/file_ops_addFile.html'>Add File(s)</a></li>
+                <li><a target='mainFrame' href='pages/file_ops_viewFile.html'>View File(s)</a></li>
+                <li><a target='mainFrame' href='pages/file_ops_delFile.html'>Delete File</a></li>
+            </ul>
+          </li>
+          <li><a target='mainFrame' href='pages/user_ops_addUser.html'>Managing Users</a>
+            <ul class ="nav nav-stacked">
+                <li><a target='mainFrame' href='pages/user_ops_addUser.html'>Add User</a></li>
+                <li><a target='mainFrame' href='pages/user_ops_editUser.html'>Modify User</a></li>
+                <li><a target='mainFrame' href='pages/user_ops_delUser.html'>Delete User</a></li>
+                <!-- <li><a target='mainFrame' href='pages/user_ops_dropUser.html'>Drop Users</a></li> -->
+            </ul>
+          </li>
+          <li><a target='mainFrame' href='pages/indexes_ops_addIndex.html'>Managing Indexes</a>
+            <ul class ="nav nav-stacked">
+              <li><a target='mainFrame' href='pages/indexes_ops_addIndex.html'>Add Indexes</a></li>
+              <li><a target='mainFrame' href='pages/indexes_ops_editdeleteIndex.html'>Edit/Delete Indexes</a></li>
+            </ul>
+          </li>
+          <li><a target='mainFrame' href='pages/search_filter.html'>Search Filter</a></li>
+          <li>
+            <a target='mainFrame' href='pages/graphs.html'>Mongo Graphs</a>
+          </li>
+          <li>
+            <a target='mainFrame' href='pages/server_stats.html'>Server Statistics</a>
+          </li>
+          <!--<li>-->
+            <!--<a target='mainFrame' href='pages/troubleshooting.html'>Troubleshooting</a>-->
+          <!--</li>-->
+        </ul>  
+      </nav>
+      <div class="col-xs-9 page-holder">
+        <iframe src="main.html" noresize="noresize" name="mainFrame" frameborder="0" class="iframe-full-height" ></iframe>
+      </div>
+    </div>
+    </div>
+    <div id="footer">
+      <div class="container" id="stopHere">
+        <div class="row footer-top-section">
+        
+          <div class="col-sm-3">
+            <div class="foot-header">
+              QUICK LINKS 
+            </div>
+            <div class="foot-links">
+              <a href="./#features">Features</a>
+              <a href="./documentation.html">Documentation</a>
+              <a href="https://github.com/Imaginea/mViewer/blob/master/LICENSE.txt">License and Terms</a>
+            </div>
+          </div><!--/col-sm-3-->
+        <div class="col-sm-3">
+          <div class="foot-header"> GET INVOLVED </div>
+          <div class="foot-links">
+            <a href="https://github.com/Imaginea/mViewer">Github Repo</a>
+            <a href="./documentation.html">Developer Guide</a>
+            <a href="https://github.com/Imaginea/mViewer/issues">Git Issue Tracker</a>
+          </div>
+        </div>
+        <div class="col-sm-3 third-column">
+          <div class="foot-header">
+            OTHER FOSS PROJECTS 
+          </div>
+          <div class="foot-links">
+            <a href="http://www.socialbyway.com/">SocialByWay</a>
+            <a href="http://www.thematisse.org/">Matisse</a>
+            <a href="http://imaginea.github.io/bot-bot/">Bot-Bot</a>
+            <a href="http://imaginea.github.io/uvCharts/">UVCharts</a>
+            <a href="http://www.wavemaker.com/">WaveMaker</a>
+            
+          </div>
+        </div><!--/col-sm-3-->
+        <div class="col-sm-3 fourth-column">
+          <div class="foot-header">
+            CONTACT US 
+          </div>
+          <div class="foot-links">
+            <div><label>Email:</label> <a href="">opensource@imaginea.com</a></div>
+            <div><label>GTalk:</label> <a href="">mviewer@gmail.com</a></div>
+            <div class="social-icons">
+              <label>Social:</label> 
+              <a href="#" class="icoFacebook" title="Facebook"><!-- <i class="fa fa-facebook"></i> --><img src="images/features/Facebook.png"></a> 
+              <a href="#" class="icoTwitter" title="Twitter"><!-- <i class="fa fa-twitter"></i> --><img src="images/features/Twitter.png"></a>
+              <a href="#" class="icoGoogle" title="Google +"><!-- <i class="fa fa-google-plus"></i> --><img src="images/features/Google-+.png"></a>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div id="final-footer" class="text-center">
+          Copyright © 2016, <a href="http://www.imaginea.com/">Imaginea Technologies</a> Inc.
+        </div>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
