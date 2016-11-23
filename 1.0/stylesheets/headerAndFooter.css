@@ -199,6 +199,7 @@ header>nav {
 .popover-content > a {
   color: #2494d0 !important;
   display: inline-block;
+  padding-top: 12px !important;
 }
 
 .popover-content > a:hover {
@@ -206,11 +207,11 @@ header>nav {
 }
 
 .popover-content {
-  padding: 9px 3px !important;
+  padding: 0px 3px !important;
 }
 
 .popover-content i {
-  padding-right: 2px;
+  padding-right: 5px;
 }
 /*Media Queries*/
 

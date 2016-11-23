@@ -1,6 +1,8 @@
 <html>
 <head>
 	<title>mViewer by Imaginea @ GitHub</title>
+  <meta charset='utf8'/>
+  <link rel="icon" type="image/png" href="images/Favicon.png" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="stylesheets/headerAndFooter.css">
@@ -25,14 +27,14 @@
           <ul class='mainNav clearfix nav navbar-nav navbar-right' >
             <li class=''><a href="./#features" ><span class="active">FEATURES</span></a></li>
             <li class=''><a href="./documentation.html" ><span>DOCUMENTATION</span></a></li>
-            <li class='download'><a href="javascript:void(0);" data-toggle="popover" data-placement="bottom" ><span>DOWNLOAD</span></a></li>
+            <li class='download'><a href="javascript:void(0);" data-toggle="popover" data-trigger="focus" data-placement="bottom" ><span>DOWNLOAD</span></a></li>
           </ul>
           </div>
          </div>
        </nav>
        <section id="downloads">
-          <a class="zip_download_link" href="https://github.com/Imaginea/mViewer/releases/download/v1.0-Beta/mViewer-1.0-release.zip"><i class="fa fa-folder-open" aria-hidden="true"></i>.zip</a>
-          <a class="tar_download_link" href="https://github.com/Imaginea/mViewer/releases/download/v1.0-Beta/mViewer-1.0-release.tar.gz"><i class="fa fa-folder-open" aria-hidden="true"></i>tar.gz</a>
+          <a class="zip_download_link" href="https://github.com/Imaginea/mViewer/releases/download/1.0.0-beta/mViewer-1.0-release.zip"><i class="fa fa-download" aria-hidden="true"></i>.zip</a>
+          <a class="tar_download_link" href="https://github.com/Imaginea/mViewer/releases/download/1.0.0-beta/mViewer-1.0-release.tar.gz"><i class="fa fa-download" aria-hidden="true"></i>tar.gz</a>
         </section>
         <a href="https://github.com/Imaginea/mViewer"><img style="position: absolute; top: -10px; right: -15px; width: 30%; max-width: 150px; border: 0;" alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
   </header>
@@ -42,14 +44,19 @@
   <div class='page-container'>
     <div class='main-carousel-container'>
       <div class="image-container">
-        <img src="images/banner.png">
+        <video id="mViewerRecorder" width="60%" height="80%">
+          <source src="recorders/home_demo.mp4#t=13">
+        Your browser does not support the video tag.
+        </video>
+        <i class="fa fa-play-circle-o" aria-hidden="true"></i>  
+        <!-- <iframe width="480" height="270" src="https://www.youtube.com/embed/jZuKr_o-OGs" frameborder="0" allowfullscreen></iframe> -->
       </div>
     </div>
   
   <div class="container"> 
     <div class="content text-center">
       <div class="header">A simple web-based Administration and Management Tool for MongoDB.</div>
-      <p class="mts">mViewer(Micro/Mongo Viewer) is a light web-based GUI managin MongoDB without needing any installation. mViewer allows managing databases, collections, gridfs, users & indexes as an alternative to the MongoDB native shell in simpler and user friendly way</p>
+      <p class="mts">mViewer(Micro/Mongo Viewer) is a light web-based GUI which manages MongoDB without needing any installation. mViewer allows managing databases, collections, gridfs, users & indexes as an alternative to the MongoDB native shell in simpler and user friendly way</p>
     </div>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -81,7 +88,7 @@
         <div class="item row">
           <div class="col-sm-6 text-center vcenter">
             <h3>Users creation & management</h3>
-            <h4>Easy to manage users. Create users and manage them with specifig roles on selected database</h4>  
+            <h4>Easy to manage users. Create users and manage them with specific roles on selected database</h4>  
           </div>
           <div class="col-sm-6">
             <img src="images/slides/usercreation.png">
@@ -186,8 +193,8 @@
             <div><label>GTalk:</label> <a href="">mviewer@gmail.com</a></div>
             <div class="social-icons">
               <label>Social:</label> 
-              <a href="#" class="icoFacebook" title="Facebook"><!-- <i class="fa fa-facebook"></i> --><img src="images/features/Facebook.png"></a> 
-              <a href="#" class="icoTwitter" title="Twitter"><!-- <i class="fa fa-twitter"></i> --><img src="images/features/Twitter.png"></a>
+              <a href="https://www.facebook.com/mViewer/" class="icoFacebook" title="Facebook"><!-- <i class="fa fa-facebook"></i> --><img src="images/features/Facebook.png"></a> 
+              <a href="https://twitter.com/m_viewer" class="icoTwitter" title="Twitter"><!-- <i class="fa fa-twitter"></i> --><img src="images/features/Twitter.png"></a>
               <a href="#" class="icoGoogle" title="Google +"><!-- <i class="fa fa-google-plus"></i> --><img src="images/features/Google-+.png"></a>
             </div>
           </div>

@@ -14,15 +14,16 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <p>mViewer(Micro/Mongo Viewer) is a light (read web based like Futon for couchdb) GUI for mongo db which does not need any install steps.</p>
+        <p>mViewer(Micro/Mongo Viewer) is a light (read web based like Futon for couchdb) GUI for mongo db which does not need any installation steps.</p>
 
-        <h2>mViewer-v1.0 Beta</h2>
-        <h3>Whats new in mViewer-v1.0 Beta ?</h3>
+        <h2>mViewer-v1.0.0 beta</h2>
+        <h3>Whats new in mViewer-v1.0.0 beta ?</h3>
 
         <ol>
-        <li>Redesigned complete user interface with enhnanced ease</li>
+        <li>Redesigned complete user interface with enhanced ease</li>
+        <li>New login interface which supports mongodb started with/without auth mode</li>
         <li>Full support of roles and privileges</li>
-        <li>User creation with roles with specific set actions.</li>
+        <li>User creation with roles with specific set actions</li>
         <li>Supports latest MongoDB v3.x</li>
         <li>Integrated all API's with swagger</li>
         </ol>
@@ -55,12 +56,12 @@
 <li>Opening multiple connections from same browser to different MongoDB servers</li>
 </ol>
 
-<h3>Download mViewer-v1.0-Beta</h3>
+<h3>Download mViewer-v1.0.0-beta</h3>
 <p>Windows :- 
-<a href="https://github.com/Imaginea/mViewer/releases/download/v1.0-Beta/mViewer-1.0-release.zip">https://github.com/Imaginea/mViewer/releases/download/v1.0-Beta/mViewer-1.0-release.zip</a>
+<a href="https://github.com/Imaginea/mViewer/releases/download/1.0.0-beta/mViewer-1.0-release.zip">https://github.com/Imaginea/mViewer/releases/download/1.0.0-beta/mViewer-1.0-release.zip</a>
 </p>
 <p>Mac/Linux :- 
-<a href="https://github.com/Imaginea/mViewer/releases/download/v1.0-Beta/mViewer-1.0-release.tar.gz">https://github.com/Imaginea/mViewer/releases/download/v1.0-Beta/mViewer-1.0-release.tar.gz</a>
+<a href="https://github.com/Imaginea/mViewer/releases/download/1.0.0-beta/mViewer-1.0-release.tar.gz">https://github.com/Imaginea/mViewer/releases/download/1.0.0-beta/mViewer-1.0-release.tar.gz</a>
 </p>
 
 <p>Download previous versions from 
@@ -116,6 +117,18 @@
 <p>It will create mViewer.war and run it using the winstone server. 
 Once started, the application can be accessed at http://localhost:port. 
 Default port is 8080 which can be updated in mViewer.properties file.</p>
+
+<h3>Working on UI</h3>
+
+<blockquote>
+<p>Do $mvn -Pserver to run server standalone.</p>
+</blockquote>
+<blockquote>
+<p>Go to mviewer-ui and do npm install and npm start to run ui on web-pack dev server.</p>
+</blockquote>
+<blockquote>
+<p>Launch at http:localhost:3000</p>
+</blockquote>
 
 <h3>Running Unit Tests</h3>
 <p>Use the following command to run the unit tests. surefire-reports will be generated in target folder.</p>

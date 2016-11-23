@@ -1,4 +1,6 @@
 $(document).ready(function(){
+  var vid = document.getElementById("mViewerRecorder"); 
+
 	$('[data-toggle=popover]').popover({
 		content: $('#downloads').html(),
 		html: true
@@ -21,6 +23,16 @@ $(document).ready(function(){
                 '-webkit-box-shadow' : '2px 2px 2px #888888' });
     	}
 	});
+  $('.fa-play-circle-o').click(function(){
+    vid.currentTime = 0;
+    vid.play();
+    $('.fa-play-circle-o').hide();
+  });
+  
+  vid.onended = function() {
+    vid.currentTime = 13;
+    $('.fa-play-circle-o').show();
+  };
 
 });
 
