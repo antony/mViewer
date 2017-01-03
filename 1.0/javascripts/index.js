@@ -30,7 +30,7 @@ $(document).ready(function(){
   });
   
   vid.onended = function() {
-    vid.currentTime = 13;
+    vid.currentTime = 10;
     $('.fa-play-circle-o').show();
   };
 
